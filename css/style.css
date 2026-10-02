@@ -123,7 +123,8 @@ h1, h2, h3,
    overriding the correct --bs- variables. */
 
 .navbar {
-
+    --bs-navbar-hover-color: var(--bf-white);
+    --bs-navbar-active-color: var(--bf-lime);
 }
 
 
@@ -133,7 +134,12 @@ h1, h2, h3,
    --bs- variables for this button. */
 
 .btn-primary {
-
+    --bs-btn-bg: var(--bf-pink);
+    --bs-btn-border-color: var(--bf-pink);
+    --bs-btn-hover-bg: var(--bf-pink-dark);
+    --bs-btn-hover-border-color:var(--bf-pink-dark);
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
 }
 
 
@@ -141,7 +147,13 @@ h1, h2, h3,
    Same variables as Task 7, plus the text colour variables. */
 
 .btn-warning {
-
+    --bs-btn-bg: var(--bf-orange);
+    --bs-btn-border-color: var(--bf-orange);
+    --bs-btn-hover-bg: var(--bf-orange-dark);
+    --bs-btn-hover-border-color: var(--bf-orange-dark);
+    --bs-btn-active-bg: var(--bf-orange-dark);
+    --bs-btn-active-border-color: var(--bf-orange-dark);
+    --bs-btn-color: var(--bf-white);
 }
 
 
